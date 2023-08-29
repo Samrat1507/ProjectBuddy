@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+  font-family: 'Merriweather', serif;;
+}
 
 .light-bg{
   background: radial-gradient(103.91% 64.53% at 16.25% 22.85%, #F5F7FA 0%, #C3CFE2 100%);
